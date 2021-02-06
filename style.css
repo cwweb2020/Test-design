@@ -6,6 +6,102 @@
 html{
     font-size: 10px;
 }
+body{
+    width: 100%;
+}
+main{
+    width: 93%;
+    margin: auto;
+}
+/* top contact */
+.topContact{
+    width: 100%;
+    height: 18vh;
+    background: #0a1229;
+}
+.topContact .topcContainer{
+    width: 80%;
+    margin: auto;
+    height: inherit;
+    display: flex;
+}
+.topContact .topcContainer .brandCointainer{
+    flex-basis: 19%;
+    display: flex;
+     padding-left: 2rem;
+    align-items: center;
+}
+.topContact .topcContainer .brandCointainer .brand{
+    width: 90px;
+}
+.topContact .topcContainer .brandCointainer .brand img{
+    width: 100%;
+}
+
+/* openhour */
+
+.topContact .topcContainer .openHour{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topContact .topcContainer .openHour h3{
+    width: 95%;
+    color: orangered;
+    font-size: 1.5rem;
+}
+.topContact .topcContainer .openHour h4{
+    font-size: 1.3rem;
+}
+
+/* follow us */
+.topContact .topcContainer .followUs{
+    flex-basis: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topContact .topcContainer .followUs h3{
+    width: 87%;
+    color: orangered;
+    font-size: 1.5rem;
+    text-align: end;
+}
+.topContact .topcContainer .followUs .Links{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-end
+}
+.topContact .topcContainer .followUs .Links a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* free call */
+.topContact .topcContainer .freeCall{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topContact .topcContainer .freeCall h3{
+    color: orangered;
+    font-size: 1.5rem;
+}
+.topContact .topcContainer .freeCall p{
+    font-size: 1.2rem;
+    margin: 0;
+    width: 80%;
+    text-align: end;
+}
+
+/* navegacion  */
+
 
 
 
