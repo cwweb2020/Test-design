@@ -12,12 +12,13 @@ body{
 main{
     width: 93%;
     margin: auto;
+    position: relative;
 }
 /* top contact */
 .topContact{
     width: 100%;
-    height: 18vh;
-    background: #0a1229;
+    height: 16vh;
+    background: #0a1229e0;
 }
 .topContact .topcContainer{
     width: 80%;
@@ -101,6 +102,275 @@ main{
 }
 
 /* navegacion  */
+.navegacion{
+    width: 100%;
+    height: 7vh;
+    background: white;
+}
+.navegacion nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion nav ul{
+    width: 38%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0;
+}
+.navegacion nav ul li{
+    list-style: none;
+    height: inherit;
+}
+.navegacion nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1.35rem;
+    font-weight: 600;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.navegacion nav ul li a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.active{
+    color:orangered !important;
+    border-bottom: 3px solid red;
+}
+
+/*------------------------------------SECCION HERO--------*/
+.Hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 105vh;
+    overflow: hidden;
+}
+.videoSection{
+    width: inherit;
+}
+.videoSection video{
+    width: inherit;
+}
+.Hero .videoSection .videoOverlay{
+    background-image: linear-gradient(40deg, rgb(33, 47, 92), #092249); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+/* relleno */
+.relleno{
+    border-bottom: 5px solid red;
+    margin-top: 43%;
+}
+  /* ------------------------seccion formulario sobre hero */
+  .Hero .videoSection .formulario{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hero .videoSection .formulario .formContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hero .videoSection .formulario .formContainer .box1{
+      flex-basis: 55%;
+  }
+  .Hero .videoSection .formulario .formContainer .box1 .barrabajo{
+    border-bottom: 7px solid orange;
+    height: 5vh;
+    width: 12%;
+  }
+ 
+  .Hero .videoSection .formulario .formContainer .box1 h1{
+      color: white;
+      font-size: 5rem;
+      font-weight: bold;
+  }
+  .Hero .videoSection .formulario .formContainer .box1 h2{
+      color: white;
+      font-size: 5rem;
+      font-weight: bold;
+  }
+  .Hero .videoSection .formulario .formContainer .box1 h3{
+      color: white;
+      font-weight: bold;
+      font-size: 2rem;
+      width: 65% ;
+  }
+  .Hero .videoSection .formulario .formContainer .box2{
+      flex-basis: 37%;
+      background-color: chocolate;
+      height: 62vh;
+      transform: translateY(65px);
+  }
+  .Form{
+      height: inherit;
+      padding: 4rem 2rem 6rem 2rem;
+      background-color: #dcdddf;
+  }
+  textarea{
+      border: none;
+      background-color: #dcdddf;
+  }
+  .Hero .videoSection .formulario .formContainer .box2 .Form .cajadeInputs{
+      display: flex;
+  } 
+  .Hero .videoSection .formulario .formContainer .box2 h2{
+      font-size: 2.7rem;
+      font-weight: bold;
+  }
+  .Hero .videoSection .formulario .formContainer .box2 .Form .botonInput{
+      height: 4rem;
+  }
+  .formulario .formContainer .box2 .Form .inPut{
+    margin: 1.6rem 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #dcdddf;
+    font-size: 1.4rem;
+  }
+
+/* ----------------------------seccion trabajo --- */
+.trabajoContainer{
+    width: 100%;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.trabajoContainer .boxesWrapper{
+    display: flex;
+    width: 73.5%;
+}
+.trabajoContainer .box1{
+    flex-basis: 50%;
+}
+.trabajoContainer .box1 .aboutPicontainer{
+    width: 48rem;
+    height: 63rem;
+}
+.trabajoContainer .box1 .aboutPicontainer img{
+    width: 100%;
+    height: 100%;
+}
+.trabajoContainer .box2{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trabajoContainer .box2 .welcome p{
+    color: red;
+    font-size: 1.6rem;
+}
+.trabajoContainer .box2 .welcome h3{
+    font-size: 4.1rem;
+    color: #1d253c;
+    font-weight: 700;
+}
+
+/* company */
+.trabajoContainer .box2 .company{
+    padding: 1rem;
+}
+.trabajoContainer .box2 .company h3{
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+}
+.trabajoContainer .box2 .company .qualprofded{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 32rem;
+    margin-top: 1.2rem;
+}
+.trabajoContainer .box2 .company .qualprofded .caja{
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.trabajoContainer .box2 .company .qualprofded .caja img{
+    width: 8.4rem ;
+    height: 8.4rem ;
+    border-radius: 4px;
+}
+.trabajoContainer .box2 .company .qualprofded .caja p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* hammer */
+.hammer{
+    font-size: 4rem;
+    background: #fb5e27;
+    padding: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
