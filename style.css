@@ -338,6 +338,187 @@ main{
 }
 
 
+/* ------------------------------------seccion about----- */
+.aboutContent{
+    width: 100% !important;
+    min-height: 100vh;
+}
+.aboutContent .fila{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.aboutContent .fila .firstBoxwrapper{
+    flex-basis: 50%;
+    justify-content: center;
+    padding-left: 2.5rem;
+}
+.aboutContent .fila .firstBoxwrapper .box1 h4{
+    text-transform: uppercase;
+    color: red;
+    font-weight: 700;
+}
+.aboutContent .fila .firstBoxwrapper .box1 h3{
+    font-size: 3rem;
+
+}
+.aboutContent .fila .firstBoxwrapper .box1 p{
+    font-weight: 700;
+    font-size: 1.6rem;
+
+}
+ /* ---caja 2-- */
+.aboutContent .fila .firstBoxwrapper .box2 ul{
+
+    width: 100%;
+    justify-content: space-between;
+     padding: 0 !important; 
+}
+.aboutContent .fila .firstBoxwrapper .box2 ul li{
+    list-style: none;
+    flex-basis: 33%;
+}
+.aboutContent .fila .firstBoxwrapper .box2 button{
+    width: 100%;
+   background: #fb7400;
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.aboutContent .fila .firstBoxwrapper .box3{
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+.aboutContent .fila .firstBoxwrapper .box3 p{
+    padding: 1.2rem;
+    margin-top: .5rem;
+    font-size: 1.4rem;
+}
+.aboutContent .fila .firstBoxwrapper  .botonAbout{
+    display: flex;
+    justify-content: center;
+} 
+.aboutContent .fila .firstBoxwrapper  .botonAbout button{ 
+width: 10rem;
+height: 4rem;
+font-size: 1.3rem;
+margin-top: 3rem;
+}
+/* ---------------------segunda caja ----- */
+.aboutContent .fila .secondBoxwrapper{
+    flex-basis: 35%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutContent .fila .secondBoxwrapper h4{
+    margin-top: 2rem;
+    color: red;
+    font-weight: 700;
+    width: 100%;
+    text-align: start;
+    font-size: 1.4rem;
+}
+.aboutContent .fila .secondBoxwrapper h3{
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta{
+
+    width: 100%;
+    height: 14rem;
+    display: flex;
+}
+.aboutContent .fila .secondBoxwrapper .tfirst{
+    background-color:#ececec ;
+}
+.aboutContent .fila .secondBoxwrapper .tsecond{
+    background-color: #fb7400 ;
+}
+.aboutContent .fila .secondBoxwrapper .tthird{
+    background-color: #040e27 ;
+}
+
+.aboutContent .fila .secondBoxwrapper .tarjeta .logocard{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta .logocard .Icon{
+    background: cadetblue;
+    font-size: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta .logocard .Icon3{
+    color: #fb7400;
+}
+
+
+
+.aboutContent .fila .secondBoxwrapper .tarjeta h5{
+    font-size: 1.5rem;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta p{
+    font-size: 1.4rem;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta  .rellenotarjeta{
+    padding: 2rem 2.5rem;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta  .rellenotarjeta h5{
+    margin-bottom:1rem;
+    width: 49%;
+}
+.aboutContent .fila .secondBoxwrapper .tarjeta  .rellenotarjeta p{
+    line-height: 20px;
+
+}
+.aboutContent .fila .secondBoxwrapper .tsecond  .rellenotarjeta h5{
+    color: white;
+}
+.aboutContent .fila .secondBoxwrapper .tsecond  .rellenotarjeta p{
+    color: white;
+}
+.aboutContent .fila .secondBoxwrapper .tthird  .rellenotarjeta h5{
+    color: white;
+}
+.aboutContent .fila .secondBoxwrapper .tthird  .rellenotarjeta p{
+    color: white;
+}
+
+
+/* ------------------------our projects-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
