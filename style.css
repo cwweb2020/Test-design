@@ -506,6 +506,7 @@ margin-top: 3rem;
     flex-direction: column;
     background-color:  #1e263b;;
     position: relative;
+    margin-bottom: 10rem;
 }
 .__slidetitulos{
     position: absolute;
@@ -638,6 +639,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 6rem;
 }
 .__testimonials .__overlay{
     position: absolute;
@@ -727,6 +729,7 @@ color: red;
 ._followus{
     width: 100%;
     height: 50vh;
+    margin-bottom: 4rem;
 }
 ._followus .followuswraper{
     width: 75%;
@@ -859,8 +862,38 @@ footer .foot3 ul li span{
 /*------------------------FOOTER----------*/
 
  /* -------------COPY RIGHT-------- */
- 
+ .Copyright{
+     width: 100%;
+     height: 17.5vh;
+     background: #040e27;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .Copyright p{
+    color: white;
+    font-size: 1.25rem;
+}
+.Copyright .josesilvera{
+    width: 10rem;
+}
+.Copyright .josesilvera img{
+    width: 100%;
+}
 
+
+ .micw{
+    text-align: center;
+    font-size: 1.25rem;
+    height: 3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
 
 
 
